@@ -1,5 +1,6 @@
 # WordToWord
 > 特定のワードを別のワードに置き換えます。opクレクレを撃退できます。<br>
+> ゲームテスト有効化必須
 
 ## [ダウンロード](https://github.com/arutaka1220/WordToWord/releases/download/v1.0.0/WordToWord.mcpack)
 
