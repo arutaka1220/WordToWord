@@ -7,7 +7,7 @@ const replace = {
 
 world.events.beforeChat.subscribe(ev => {
     let { sender, message } = ev;
-    for(let key in replace) message = message.toLowerCase().replace(new RegExp(key), replace[key]);
+    for(let key in replace) message = message.toLowerCase().replace(new RegExp(key, "gi"), replace[key]);
 
     ev.cancel = true;
     world.say(`<${sender.name}> ${message}`);
